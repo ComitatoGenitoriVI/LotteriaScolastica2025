@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    color: #6a0dad; /* Viola pasquale */
+}
+
+input, select, button {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #ffb300; /* Giallo pasquale */
+    color: white;
+    cursor: pointer;
+}
+
+#numeri {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+#numeri button {
+    background-color: #e0e0e0;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.numero-selezionato {
+    background-color: #4CAF50 !important;
+    color: white !important;
+}
+
+.numero-giocato {
+    background-color: #ccc !important;
+    color: #999 !important;
+    cursor: not-allowed !important;
+}
+
+#numeriLiberi {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
